@@ -450,6 +450,18 @@ span {
     margin-bottom: 3rem;
   }
 
+  .stats h2 {
+    margin-bottom: 3rem;
+  }
+
+  .stats-container {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .stats-layer h4 {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media (max-width: 450px) {
